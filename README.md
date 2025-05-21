@@ -47,5 +47,41 @@ Follow these steps to run this project locally or deploy it online.
 ```bash
 git clone https://github.com/your-username/ckd-detection.git
 cd ckd-detection
+## 🖥️ App Navigation Guide
+
+Here’s how to explore the app once it’s running:
+
+### 🔐 Login Page
+- Enter **Username**: `admin`
+- Enter **Password**: `Sulthan`
+- Press **Login** to access the app
+
+### 🧪 Predict CKD
+- Input patient details (age, blood pressure, albumin, etc.)
+- Click **Predict**
+- Get instant feedback:
+  - ✅ Healthy or ❌ CKD Detected
+  - 📋 Treatment suggestions if CKD is detected
+
+### 📍 Nearby Hospitals
+- Enter your **city name**
+- Get **hospital recommendations** (contact, website, location)
+- Built-in support for cities like Chennai, Bangalore, Vellore, etc.
+- Direct Google Maps link included
+
+### 🥦 Dietary Recommendations
+- Shows safe & restricted foods
+- Tips on sodium, protein, potassium, and phosphorus
+- Lifestyle advice for CKD management
+
+### 📊 Data Visualization
+- Upload your own **CKD dataset** (CSV format)
+- See:
+  - Correlation heatmaps
+  - Bar graphs
+  - KDE plots
+  - Scatter plots
+- Explore relationships between features & CKD status
+
 
 
